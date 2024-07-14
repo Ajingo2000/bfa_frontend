@@ -1,0 +1,48 @@
+.activity-container{
+    display: flex;
+    width: 90vw;
+}
+
+.activity-panel{
+    height: 80vh;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    flex:0.5;
+    margin:10px;
+    padding: 4px;
+    position: relative;
+    transition: all 700ms ease-in ;
+}
+
+.activity-panel h4{
+    font-size: 35px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity:0;
+}
+
+.activity-panel.active {
+ flex: 5;
+}
+.activity-panel.active h4{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+
+
+@media (max-width: 480px) {
+    .activity-container{
+        width:100vw;
+        transition: opacity 0.3s ease-in 0.4s;
+    }
+
+    .activity-panel:nth-of-type(4),
+    .activity-panel:nth-of-type(5){
+        display: none;
+    }
+
+}

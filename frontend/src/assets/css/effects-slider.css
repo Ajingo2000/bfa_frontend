@@ -1,0 +1,82 @@
+#app {
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-image: url("../images/construction-1.jpeg");
+
+  background-size: cover; /* options: cover, contain, auto */
+  background-position: center; /* options: center, top, bottom, left, right */
+  background-repeat: no-repeat;
+}
+
+.swiper-slide:nth-child(2n) {
+  background-image: url("../images/construction-2.jpeg");
+
+  background-size: cover; /* options: cover, contain, auto */
+  background-position: center; /* options: center, top, bottom, left, right */
+  background-repeat: no-repeat;
+}
+
+.swiper-slide:nth-child(3n) {
+  background-image: url("../images/pader trip.jpeg");
+
+  background-size: cover; /* options: cover, contain, auto */
+  background-position: center; /* options: center, top, bottom, left, right */
+  background-repeat: no-repeat;
+}
+
+.swiper-slide:nth-child(4n) {
+  background-image: url("../images/soulWinning.jpeg");
+
+  background-size: cover; /* options: cover, contain, auto */
+  background-position: center; /* options: center, top, bottom, left, right */
+  background-repeat: no-repeat;
+}
+
+.swiper-slide:nth-child(5n) {
+  background-size: cover; /* options: cover, contain, auto */
+  background-position: center; /* options: center, top, bottom, left, right */
+  background-repeat: no-repeat;
+  background-image: url("../images/pader trip.jpeg");
+
+  background-size: cover; /* options: cover, contain, auto */
+  background-position: center; /* options: center, top, bottom, left, right */
+  background-repeat: no-repeat;
+}
+
+/* .swiper-slide:nth-child(6n) {
+  background-image: url('../assets/images/.jpg');
+}
+
+.swiper-slide:nth-child(7n) {
+  background-image: url('../assets/images/.jpg');
+}
+
+.swiper-slide:nth-child(8n) {
+  background-image: url('../assets/images/.jpg');
+}
+
+.swiper-slide:nth-child(9n) {
+  background-image: url('../assets/images/.jpg');
+}
+
+.swiper-slide:nth-child(10n) {
+  background-image: url('../assets/images/.jpg');
+} */

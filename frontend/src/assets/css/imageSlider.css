@@ -1,0 +1,89 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  @media (min-width: 1440px) {
+    html {
+      zoom: 1.5;
+    }
+  }
+  
+  @media (min-width: 2560px) {
+    html {
+      zoom: 1.7;
+    }
+  }
+  
+  @media (min-width: 3860px) {
+    html {
+      zoom: 2.5;
+    }
+  }
+  
+  ::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background: #797979;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #222224;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f9f9f9;
+  }
+  
+
+.image-slider-bg{
+    background-image: linear-gradient(to top right, #8B5CF6, #EC4899);
+   
+}
+
+.image-slider{
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    height: 370px;
+    overflow: hidden;
+}
+.image-item{
+    position: absolute;
+    width: 200px;
+    height: 320px;
+    text-align: justify;
+    background-color: #fff;
+    border-radius: 10px;
+    transition:  0.5s;
+    left: calc(50% - 110px);
+    top: 0;
+}
+#nextImage{
+    position: absolute;
+    right: 50px;
+    top: 40%;
+}
+#prevImage{
+    position: absolute;
+    left: 50px;
+    top: 40%;
+}
+#prevImage, #nextImage{
+    color: rgb(59, 185, 185);
+    background: none;
+    border: none;
+    font-size: xxx-large;
+    font-family: monospace;
+    font-weight: 800;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+#prevImage:hover,
+#nextImage:hover{
+    opacity: 1;
+}
+
